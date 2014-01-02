@@ -1,0 +1,16 @@
+#this program is used to prime factorize numbers
+import sys
+primenums = [2,3,5,7,9,11]
+print "Hi. What's your name?"
+username = raw_input() 
+print "Well, welcome " + username + ". I see you need to find out the prime factorization of a number. Correct?"
+print "Type yes or no"
+ans1 = raw_input() 
+if ans1 == str("yes"):
+	print "Great! What is the number you are using?"
+	orignum = int(raw_input())
+else: 
+	print "Well since you don't need my help, see ya"
+	raw_input()
+raw_input()
+
